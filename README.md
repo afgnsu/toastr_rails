@@ -1,4 +1,7 @@
-# ●Toastr - Bootstrap快閃提示
+# ●Toastr - Bootstrap5 快閃提示
+
+* 取代 bootstrap_flash_messages 和 bootstrap-rails-flash 。這兩個最多只支援到 Bootstrap 4。
+
 
 1. ruby -v  #v2.7.7
 
