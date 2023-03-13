@@ -1,0 +1,10 @@
+<!-- <p id="notice"><%# notice %></p> -->
+<h1>Show User</h1>
+
+<p>
+  <strong>Name:</strong>
+  <%= @admin.name %>
+</p>
+
+<%= link_to 'Edit', edit_admin_path(@admin), class: 'btn btn-warning col-1' %>
+&nbsp;<%= link_to 'Home', admins_path, class: 'btn btn-secondary col-1'  %>
